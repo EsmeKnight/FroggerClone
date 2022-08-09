@@ -61,11 +61,11 @@ while game_is_on:
 
     # establsih game over
     for car in cars.cars_top_bottom:
-        if car.distance(frog) < 10:
+        if car.distance(frog) < 15:
             score.gameover()
             game_is_on = False
     for car in cars.cars_middle:
-        if car.distance(frog) < 10:
+        if car.distance(frog) < 15:
             score.gameover()
             game_is_on = False
 
